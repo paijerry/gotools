@@ -53,7 +53,7 @@ func MaptoMD5(m map[string]interface{}, sKey string) string {
 		}
 		str += s
 	}
-	fmt.Println(str)
+	//fmt.Println(str)
 	//MD5 encode
 	h := md5.New()
 	io.WriteString(h, str)
